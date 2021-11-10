@@ -1,0 +1,24 @@
+<RCC>
+    <qresource prefix="/">
+        <file>image/p1.png</file>
+        <file>image/p2.png</file>
+        <file>image/next1.png</file>
+        <file>image/word.png</file>
+        <file>image/next0.png</file>
+        <file>image/random.png</file>
+        <file>image/add.png</file>
+        <file>image/pic.png</file>
+        <file>image/mute.png</file>
+        <file>image/volume.png</file>
+        <file>image/order.png</file>
+        <file>image/myCollect.png</file>
+        <file>image/myLike .png</file>
+        <file>image/myStars.png</file>
+        <file>image/about.png</file>
+        <file>image/skin.png</file>
+        <file>image/wallPaper.jpg</file>
+        <file>image/create.png</file>
+        <file>image/note.png</file>
+        <file>image/list.png</file>
+    </qresource>
+</RCC>
