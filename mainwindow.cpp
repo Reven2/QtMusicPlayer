@@ -88,7 +88,7 @@ MainWindow::MainWindow(QWidget *parent)
     //volume_btn->toolTip("Volume");
 
 
-    //安装过滤器 然后记得重写一个 eventfileter 事件 不会写事件处理 不然也不用写这个Fileter 这种NT玩意
+    //安装过滤器 然后记得重写一个 eventfileter 事件 
     volume_btn->installEventFilter(this);
 
 
@@ -98,7 +98,8 @@ MainWindow::MainWindow(QWidget *parent)
     ui->verticalSlider->hide();
 
 
-    //右键菜单 这段代码要好好注意 不报错但右键菜单不出来 bug卡了两天至今还不知道为什么 但现在又可以了
+    //右键菜单 这段代码要好好注意 不报错但右键菜单不出来 
+        
     //本地音乐右键菜单
     ui->MusicList->setContextMenuPolicy(Qt::CustomContextMenu);
     connect(ui->MusicList,&QListWidget::customContextMenuRequested,this,[=](const QPoint &pos)
@@ -244,7 +245,7 @@ MainWindow::MainWindow(QWidget *parent)
 
 //    QPushButton * p = new QPushButton(this);
 //    p->setText("88");
-//    //直接click()  不要用QPushButton：：clicked（）！ i DONT FUCK KNOW WHY
+//    //直接click()  不要用QPushButton：：clicked（）
 //    connect(p,SIGNAL(clicked()),this,SLOT(close()));
 
 
